@@ -6,21 +6,21 @@ This project implements a forensic pipeline to classify images as **real** (phot
 
 ## Features Extracted
 
--Density Statistics
+1)Density Statistics
 
 -Mean intensity of pixel values
 
 -Standard deviation (std) of pixel values
 
--Sharpness / Focus Measure
+2)Sharpness / Focus Measure
 
 -Laplacian variance (captures blurriness or sharpness differences in images)
 
--Edge & Texture Features
+3)Edge & Texture Features
 
 -Edge density (proportion of edge pixels, extracted via Canny or similar methods)
 
--Color Distribution 
+4)Color Distribution 
 
 ---
 
