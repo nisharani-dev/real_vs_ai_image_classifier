@@ -6,11 +6,21 @@ This project implements a forensic pipeline to classify images as **real** (phot
 
 ## Features Extracted
 
-- Color statistics (mean and standard deviation per RGB channel)  
-- Local Binary Patterns (LBP) texture histograms  
-- Wavelet detail energies (Haar DWT)  
-- Noise residual statistics  
-- JPEG/DCT block artifact statistics  
+-Density Statistics
+
+-Mean intensity of pixel values
+
+-Standard deviation (std) of pixel values
+
+-Sharpness / Focus Measure
+
+-Laplacian variance (captures blurriness or sharpness differences in images)
+
+-Edge & Texture Features
+
+-Edge density (proportion of edge pixels, extracted via Canny or similar methods)
+
+-Color Distribution 
 
 ---
 
